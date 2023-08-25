@@ -1,8 +1,12 @@
 [Mm]elissa[Uu]pdater/
 
 mdName.dll
+libmdName.so
 
 *.h
 *.lib
 *.obj
 *.hash
+*.zip
+*.class
+*.jar

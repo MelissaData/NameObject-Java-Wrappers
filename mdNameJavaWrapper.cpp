@@ -204,6 +204,11 @@ extern "C" JNIEXPORT jstring JNICALL Java_com_melissadata_mdNameJNI_GetChangeCod
 	return UnicodeString(jEnv,((mdName*) I)->GetChangeCode());
 }
 
+extern "C" JNIEXPORT jstring JNICALL Java_com_melissadata_mdNameJNI_GetDebugInfo(JNIEnv* jEnv,jclass /*jCls*/,jlong I,jstring p1) {
+	Utf8String _p1(jEnv,p1);
+	return UnicodeString(jEnv,((mdName*) I)->GetDebugInfo(_p1.GetUtf8Ptr()));
+}
+
 extern "C" JNIEXPORT jstring JNICALL Java_com_melissadata_mdNameJNI_GetResults(JNIEnv* jEnv,jclass /*jCls*/,jlong I) {
 	return UnicodeString(jEnv,((mdName*) I)->GetResults());
 }
