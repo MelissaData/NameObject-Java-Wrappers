@@ -12,7 +12,7 @@ For further details, please visit: https://wiki.melissadata.com/images/0/0e/DQT_
 ## Tested Environments
 - Windows 10 64-bit Java 19, Microsoft Visual C++ 19.34, Powershell 5.1
 - Ubuntu Linux 20.04.04 LTS 64-bit Java 20, gcc 9.4.0 
-- Melissa Name Object for 2023-12
+- Melissa Name Object for 2024-01
 
 ## Getting Started
 These instructions will get you a copy of the wrappers needed to run the Java Name Object on your local machine. 
