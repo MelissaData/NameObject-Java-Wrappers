@@ -54,6 +54,14 @@ $Files = @(
     Type           = "INTERFACE";
   },
   [FileConfig]@{
+    FileName       = "mdNameJavaWrapper.cpp";
+    ReleaseVersion = $RELEASE_VERSION;
+    OS             = "ANY";
+    Compiler       = "JAVA";
+    Architecture   = "ANY";
+    Type           = "INTERFACE";
+  },
+  [FileConfig]@{
     FileName       = "mdName_JavaCode.zip";
     ReleaseVersion = $RELEASE_VERSION;
     OS             = "ANY";
