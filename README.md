@@ -20,8 +20,8 @@ These instructions will get you a copy of the wrappers needed to run the Java Na
 
 ### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/java/melissanameobjectjavawrappers.git
-cd melissanameobjectjavawrappers
+git clone https://github.com/MelissaData/NameObject-Java-Wrappers
+cd NameObject-Java-Wrappers
 ```
 
 ### Copy wrappers to your project folder
